@@ -1,0 +1,21 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks';
+import { Tablr } from '../Tablr';
+
+<Meta title='Tablr' component={Tablr} />
+
+## Tablr
+#### A customizeable React table component
+
+<Canvas>
+  <Story name='Default'>
+    <Tablr 
+      headers={['Col 1', 'Col 2', 'Col 3', 'Col 4', 'Col 5']}
+      rows={[
+        ['This', 'is', 'just', 'a', 'test'],
+        ['This', 'is', 'also', 'a', 'test'],
+        ['Just', 'a', 'little', 'more', 'data'],
+        ['Row', 'number', 'four', 'right', 'here'],
+      ]}
+    />
+  </Story>
+</Canvas>
