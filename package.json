@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "start-storybook -p 6006",
-    "build": "react-scripts build"
+    "build-storybook": "build-storybook"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +41,7 @@
     "@storybook/addon-links": "^6.2.9",
     "@storybook/react": "^6.2.9",
     "babel-loader": "^8.2.2",
+    "chromatic": "^5.8.0",
     "storybook-css-modules-preset": "^1.0.8"
   }
 }
